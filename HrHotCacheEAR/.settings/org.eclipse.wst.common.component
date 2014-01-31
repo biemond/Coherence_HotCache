@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="HrHotCacheEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="HrHotCache.gar" deploy-path="/" handle="module:/resource/HrHotCache/HrHotCache">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="HrHotCacheWeb" deploy-path="/" handle="module:/resource/HrHotCacheWeb/HrHotCacheWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="HrModel.jar" deploy-path="/lib" handle="module:/resource/HrModel/HrModel">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
